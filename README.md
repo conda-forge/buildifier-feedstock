@@ -11,7 +11,7 @@ Summary: buildifier is a tool for formatting bazel BUILD and .bzl files with a s
 
 Development: https://github.com/bazelbuild/buildtools
 
-Documentation: https://github.com/bazelbuild/buildtools/blob/4.0.1/buildifier/README.md
+Documentation: https://github.com/bazelbuild/buildtools/blob/4.2.0/buildifier/README.md
 
 Current build status
 ====================
@@ -73,6 +73,7 @@ Installing `buildifier` from the `conda-forge` channel can be achieved by adding
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `buildifier` can be installed with:
