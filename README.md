@@ -11,7 +11,7 @@ Summary: buildifier is a tool for formatting bazel BUILD and .bzl files with a s
 
 Development: https://github.com/bazelbuild/buildtools
 
-Documentation: https://github.com/bazelbuild/buildtools/blob/4.2.5/buildifier/README.md
+Documentation: https://github.com/bazelbuild/buildtools/blob/5.0.1/buildifier/README.md
 
 Current build status
 ====================
