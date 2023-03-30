@@ -1,17 +1,17 @@
-About buildifier
-================
+About buildifier-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/buildifier-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/bazelbuild/buildtools
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/buildifier-feedstock/blob/main/LICENSE.txt)
-
 Summary: buildifier is a tool for formatting bazel BUILD and .bzl files with a standard convention.
 
 Development: https://github.com/bazelbuild/buildtools
 
-Documentation: https://github.com/bazelbuild/buildtools/blob/6.0.1/buildifier/README.md
+Documentation: https://github.com/bazelbuild/buildtools/blob/6.1.0/buildifier/README.md
 
 Current build status
 ====================
