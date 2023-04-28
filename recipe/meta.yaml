@@ -1,13 +1,13 @@
 {% set name = "buildifier" %}
-{% set version = "6.1.1" %}
+{% set version = "6.1.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/bazelbuild/buildtools/archive/{{ version }}.tar.gz
-  sha256: 76f96aa30635b0566bee078aeff822ec6220f3801c69b9f16f689cd7da901ec8
+  url: https://github.com/bazelbuild/buildtools/archive/v{{ version }}.tar.gz
+  sha256: 977a0bd4593c8d4c8f45e056d181c35e48aa01ad4f8090bdb84f78dca42f47dc
   folder: src/github.com/bazelbuild/buildtools
 
 build:
