@@ -1,5 +1,5 @@
 {% set name = "buildifier" %}
-{% set version = "8.5.1" %}
+{% set version = "10.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/bazelbuild/buildtools/archive/v{{ version }}.tar.gz
-  sha256: f3b800e9f6ca60bdef3709440f393348f7c18a29f30814288a7326285c80aab9
+  sha256: 7914e09ee966e7498c4a0c365590f555c741c24b1dee022f60a2284036c2653a
   folder: src/github.com/bazelbuild/buildtools
 
 build:
